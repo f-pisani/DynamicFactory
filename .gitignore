@@ -1,0 +1,103 @@
+# Build directories
+build/
+debug/
+release/
+bin/
+obj/
+
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+DynamicFactory
+
+# IDE specific files
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
+*.vcxproj.user
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Code::Blocks
+*.cbp
+*.depend
+*.layout
+*_build_log.html
+
+# Eclipse
+.cproject
+.project
+.settings/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+# CMake (if you decide to use it later)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.cmake
+compile_commands.json
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Core dumps
+core
+*.core
+
+# Dependency directories (if using package managers)
+vendor/
+deps/
+external/
+
+# Documentation generation
+docs/html/
+docs/latex/
+Doxyfile.bak
